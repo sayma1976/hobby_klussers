@@ -1,0 +1,50 @@
+body{
+    
+    background-color: beige;
+    color:blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+h1{
+    color:cadetblue;
+    text-align: center;
+    margin:auto;
+    padding: 20px;
+    border: 5px double darkviolet;
+
+}
+table{
+    display: table;
+    text-align: center;
+    font-size: 20px;
+    width: 320px;
+    margin: auto;
+}
+td,th{
+    padding: 10px;
+    border:3px double lightslategrey
+}
+@media screen and (min-width: 700px){
+    table{
+        display: table;
+        text-align: center;
+        font-size: 20px;
+        width: 650px;
+        margin: auto;
+    }    
+    img{width: 350px;}
+@media screen and (min-width: 900px){
+    table{
+        display: table;
+        text-align: center;
+        font-size: 20px;
+        width: 980px;
+        margin: auto;
+    }    
+    img {width: 500px;
+    }
+ .breed{
+        width: 600px;
+    }
+}
